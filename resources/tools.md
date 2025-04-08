@@ -68,6 +68,11 @@ A collection of essential development tools and utilities for React and Next.js 
 - [Clerk](https://clerk.com/) - A comprehensive authentication and user management solution for React and Next.js.
 - [BetterAuth](https://www.better-auth.com/) - A modern, developer-friendly authentication solution with an emphasis on security.
 
+
+### Others
+
+- [Serva](https://getserva.com/) - The quickest way to showcase Instagram feed on your website
+  
 ---
 
 ## Contribution
