@@ -7,6 +7,7 @@ A collection of design inspiration and references for React and Next.js develope
 ## List of Inspiration
 Popular design inspiration and references
 - [SupaHero](https://www.supahero.io/) - Extensive collection of hero section designs.
+- [Web Design Inspiration](https://webdesigninspiration.io/) - Collection of sites with Cool UI.
 
 ---
 
