@@ -18,7 +18,7 @@ Popular UI component libraries with pre-built, customizable components
 - [Hero UI](https://www.heroui.com/) – Elegant and feature-rich UI components.
 - [Spectrum UI](https://spectrumui.arihantcodes.in/) - Collection of reusable ShadCN UI components.
 - [Shadcn UI Blocks](https://www.shadcnui-blocks.com/) - A collection of ready to use Shadcn UI blocks and components.
-- [NS UI](https://nsui.irung.me/hero-section) - A collection of Marketing UI Blocks.
+- [Tail Ark](https://tailark.com/) - A collection of Marketing UI Blocks.
 - [Cursify](https://cursify.vercel.app/) - A Collection of Cursor Components built with React Tailwind CSS and Framer Motion.
 - [Artifact UI](https://artifactui.in/) - A modern UI component library for beautiful and accessible web applications.
 - [Ground](https://ground.bossadizenith.me/docs/components) - Handcrafted animated modern components build for performance and ready to use in your app.
