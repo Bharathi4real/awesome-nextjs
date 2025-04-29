@@ -22,6 +22,7 @@ Popular UI component libraries with pre-built, customizable components
 - [Cursify](https://cursify.vercel.app/) - A Collection of Cursor Components built with React Tailwind CSS and Framer Motion.
 - [Artifact UI](https://artifactui.in/) - A modern UI component library for beautiful and accessible web applications.
 - [Ground](https://ground.bossadizenith.me/docs/components) - Handcrafted animated modern components build for performance and ready to use in your app.
+- [UI Layouts](https://www.ui-layouts.com/) - Free beautifull interactive react/nextjs component based on tailwindcss, motion, gsap, threejs.
 
 ## List of Icon Libraries
 Icon sets with various styles and formats (SVG, font icons)
