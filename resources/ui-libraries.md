@@ -45,5 +45,11 @@ Font resources for web and app design
 
 ---
 
+## List of UI Tools
+tools to make everything enjoyable
+
+[View](https://github.com/Bharathi4real/awesome-nextjs/blob/main/resources/tools.md#ui-tools)
+---
+
 ## Contribution
 Want to suggest UI libraries? Open a pull request!
