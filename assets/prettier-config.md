@@ -19,7 +19,7 @@ Save the provided `.prettierrc` configuration in the project root.
   "bracketSpacing": true,
   "arrowParens": "always",
   "bracketSameLine": false,
-  "endOfLine": "lf",
+  "endOfLine": "crlf",
   "plugins": ["prettier-plugin-tailwindcss"],
   "tailwindStylesheet": "./styles/globals.css"
 }
