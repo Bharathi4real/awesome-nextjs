@@ -15,6 +15,7 @@ A collection of essential development tools and utilities for React and Next.js 
 - [OKLCH Converter](https://oklch.com/) - Convert colors to the OKLCH color space for better color representation.
 - [ShadCN Form Builder](https://www.shadcn-form.com/playground) - A form builder for ShadCN components with integrated Zod validation for smooth form handling.
 - [Tools.UI-Layout](https://tools.ui-layouts.com/) - A creative toolbox featuring shadow, SVG, gradient, and background pattern generators, color. Open-source, fast, and made for builders.
+- [Frimousse](https://frimousse.liveblocks.io/) - A lightweight, unstyled, and composable emoji picker for React.
 
 ### Build Tools
 - [Vite](https://vitejs.dev/) - A modern and fast development build tool optimized for React and Next.js applications.
