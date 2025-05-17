@@ -14,6 +14,7 @@ A collection of essential development tools and utilities for React and Next.js 
 - [Color Converter](https://divmagic.com/tools/color-converter) - A versatile tool to convert colors between various formats.
 - [OKLCH Converter](https://oklch.com/) - Convert colors to the OKLCH color space for better color representation.
 - [ShadCN Form Builder](https://www.shadcn-form.com/playground) - A form builder for ShadCN components with integrated Zod validation for smooth form handling.
+- [ThemeCN](https://themecn.dev/) - themecn streamlines your design workflow with powerful, intuitive theme creation for shadcn/ui.
 - [Tools.UI-Layout](https://tools.ui-layouts.com/) - A creative toolbox featuring shadow, SVG, gradient, and background pattern generators, color. Open-source, fast, and made for builders.
 - [Frimousse](https://frimousse.liveblocks.io/) - A lightweight, unstyled, and composable emoji picker for React.
 
