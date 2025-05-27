@@ -46,14 +46,18 @@ Font resources for web and app design
 - [nextjs-fonts](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) – Next.js-specific font optimization guide.
 
 ---
+
 ## List of Stock Image and Illustration Galleries
 Best Royalty Free Stock Images, Illustrations and 3D assets
 - [Lummi](https://www.lummi.ai/) - Free stock photos and royalty free images.
+
+---
 
 ## List of UI Tools
 tools to make everything enjoyable
 
 [View](https://github.com/Bharathi4real/awesome-nextjs/blob/main/resources/tools.md#ui-tools)
+
 ---
 
 ## Contribution
