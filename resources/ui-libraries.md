@@ -32,7 +32,9 @@ Icon sets with various styles and formats (SVG, font icons)
 - [Phosphor](https://phosphoricons.com/) – Versatile icon set with multiple styles in SVG format.
 - [Simple Icons](https://simpleicons.org/) – Brand icons with SVG format support.
 - [Animated Icons](https://icons.pqoqubbw.dev/) - Beautifully crafted animated icons built with motion and lucide and shadcn.
-- [useAnimations](https://useanimations.com/) -Animated icons in Lottie Framework for immediate implementation to your apps or websites.
+- [useAnimations](https://useanimations.com/) - Animated icons in Lottie Framework for immediate implementation to your apps or websites.
+- [UnDraw](https://undraw.co/illustrations) - Open-source illustrations for websites and apps.
+- [Humaaans](https://www.humaaans.com/) - Mix-and-match illustrations of people in modern styles.
 
 ---
 
@@ -44,6 +46,9 @@ Font resources for web and app design
 - [nextjs-fonts](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) – Next.js-specific font optimization guide.
 
 ---
+## List of Stock Image and Illustration Galleries
+Best Royalty Free Stock Images, Illustrations and 3D assets
+- [Lummi](https://www.lummi.ai/) - Free stock photos and royalty free images.
 
 ## List of UI Tools
 tools to make everything enjoyable
