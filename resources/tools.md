@@ -10,7 +10,8 @@ A collection of essential development tools and utilities for React and Next.js 
 - [Color Converter](https://divmagic.com/tools/color-converter) - A versatile tool to convert colors between various formats.  
 - [Flexbox Labs](https://flexboxlabs.netlify.app/) - An interactive tool to help you design Flexbox and Grid layouts easily.
 - [Frimousse](https://frimousse.liveblocks.io/) - A lightweight, unstyled, and composable emoji picker for React. 
-- [Grid Generator](https://www.tailwindgen.com/) - A tool to generate Tailwind CSS grid classes.  
+- [Grid Generator](https://www.tailwindgen.com/) - A tool to generate Tailwind CSS grid classes.
+- [Gradienty](https://gradienty.codes/) - Create stunning visuals effortlessly with our Tailwind Gradient Generator and other tools.
 - [OKLCH Converter](https://oklch.com/) - Convert colors to the OKLCH color space for better color representation.  
 - [PostSpark](https://postspark.app/screenshot) - A screenshot tool that allows you to capture and share screenshots of your website.  
 - [ShadCN Form Builder](https://www.shadcn-form.com/playground) - A form builder for ShadCN components with integrated Zod validation for smooth form handling.  
