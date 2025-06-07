@@ -45,6 +45,7 @@ Font resources for web and app design
 - [Google Fonts](https://fonts.google.com/) – Free and widely-used web fonts.  
 - [nextjs-fonts](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) – Next.js-specific font optimization guide.  
 - [Typography.com](https://typography.com/) – Professional-grade fonts with licensing options.
+- [Svgl.app](https://svgl.app/) - Free and widely-used SVG Logos.
 
 ---
 
