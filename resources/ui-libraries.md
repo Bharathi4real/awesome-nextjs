@@ -24,6 +24,7 @@ Popular UI component libraries with pre-built, customizable components
 - [Tail Ark](https://tailark.com/) - A collection of Marketing UI Blocks.  
 - [Tailus UI](https://ui.tailus.io/) – Tailwind-based component library.  
 - [UI Layouts](https://www.ui-layouts.com/) - Free beautifull interactive react/nextjs component based on tailwindcss, motion, gsap, threejs.
+- [UIVERSE](https://uiverse.io/) - Community-built library of UI elements. Copy as HTML/CSS, Tailwind, React and Figma.
 
 ## List of Icon Libraries
 Icon sets with various styles and formats (SVG, font icons)
