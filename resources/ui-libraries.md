@@ -33,7 +33,8 @@ Icon sets with various styles and formats (SVG, font icons)
 - [Google Icons](https://fonts.google.com/icons) – Extensive collection of free icons by Google.  
 - [Heroicons](https://heroicons.com/) – Handcrafted SVG icons by the makers of Tailwind CSS.  
 - [Humaaans](https://www.humaaans.com/) - Mix-and-match illustrations of people in modern styles.  
-- [Lucide](https://lucide.dev/) – Open-source icons with consistent design.  
+- [Lucide](https://lucide.dev/) – Open-source icons with consistent design.
+- [Obra](https://icons.obra.studio/?ref=dailydev) - A simple, consistent set of icons, perfect for user interfaces.
 - [Phosphor](https://phosphoricons.com/) – Versatile icon set with multiple styles in SVG format.  
 - [Simple Icons](https://simpleicons.org/) – Brand icons with SVG format support.  
 - [UnDraw](https://undraw.co/illustrations) - Open-source illustrations for websites and apps.  
