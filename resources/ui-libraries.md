@@ -18,7 +18,8 @@ Popular UI component libraries with pre-built, customizable components
 - [Hero UI](https://www.heroui.com/) – Elegant and feature-rich UI components.  
 - [HyperUI](https://www.hyperui.dev/) – Tailwind CSS-based UI components.  
 - [Magic UI](https://magicui.design/) – Interactive and animated components.  
-- [Origin UI](https://originui.com/) – Modern and customizable React components.  
+- [Origin UI](https://originui.com/) – Modern and customizable React components.
+- [Pace UI](https://www.paceui.com/) - Animated components and design blocks crafted for smooth interaction and rich detail. Copy, customise, and create without the extra setup.
 - [React Bits](https://www.reactbits.dev/) – Collection of reusable React components.  
 - [ShadCN UI](https://ui.shadcn.com/) – Minimalist and customizable UI components.  
 - [Shadcn UI Blocks](https://www.shadcnui-blocks.com/) - A collection of ready to use Shadcn UI blocks and components.  
