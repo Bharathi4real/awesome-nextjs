@@ -30,7 +30,9 @@ Popular UI component libraries with pre-built, customizable components
 
 ## List of Icon Libraries
 Icon sets with various styles and formats (SVG, font icons)
-- [Animated Icons](https://icons.pqoqubbw.dev/) - Beautifully crafted animated icons built with motion and lucide and shadcn.  
+- [3D Icons](https://3dicons.co/) - More than 1500+ hand made Open Source & Premium 3d icons renders for ready to use
+- [Animated Icons](https://icons.pqoqubbw.dev/) - Beautifully crafted animated icons built with motion and lucide and shadcn.
+- [Cool Shapes](https://coolshap.es/) - 100+ Abstract shapes with cool grainy gradient. Ready to use with any design dev project. 
 - [Google Icons](https://fonts.google.com/icons) – Extensive collection of free icons by Google.  
 - [Heroicons](https://heroicons.com/) – Handcrafted SVG icons by the makers of Tailwind CSS.  
 - [Humaaans](https://www.humaaans.com/) - Mix-and-match illustrations of people in modern styles.  
