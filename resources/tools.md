@@ -15,8 +15,9 @@ A collection of essential development tools and utilities for React and Next.js 
 - [OKLCH Converter](https://oklch.com/) - Convert colors to the OKLCH color space for better color representation.  
 - [PostSpark](https://postspark.app/screenshot) - A screenshot tool that allows you to capture and share screenshots of your website.  
 - [ShadCN Form Builder](https://www.shadcn-form.com/playground) - A form builder for ShadCN components with integrated Zod validation for smooth form handling.  
-- [Swapy](https://swapy.tahazsh.com/) - A framework-agnostic tool that converts any layout into a drag-to-swap.  
-- [ThemeCN](https://themecn.dev/) - themecn streamlines your design workflow with powerful, intuitive theme creation for shadcn/ui.  
+- [Swapy](https://swapy.tahazsh.com/) - A framework-agnostic tool that converts any layout into a drag-to-swap.
+- [Tailwind CSS Animations](https://tailwindcss-animations.vercel.app) - A comprehensive Tailwind CSS animations plugin by @midudev that provides over 60 pre-built animation classes for web developers.
+- [ThemeCN](https://themecn.dev/) - themecn streamlines your design workflow with powerful, intuitive theme creation for shadcn/ui. 
 - [Tools.UI-Layout](https://tools.ui-layouts.com/) - A creative toolbox featuring shadow, SVG, gradient, and background pattern generators, color. Open-source, fast, and made for builders.
 
 ### Build Tools
