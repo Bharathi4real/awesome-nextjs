@@ -4,104 +4,6 @@
 
 The `imageConfig` object provides a centralized configuration system for handling image paths in Next.js applications. It dynamically constructs image URLs based on environment variables and runtime context, supporting both local and remote image sources.
 
-## Configuration Object
-
-### Properties
-
-#### `basePath` (getter)
-Returns the base path for images, determined by the following priority:
-1. `NEXT_PUBLIC_IMAGE_PATH` environment variable (with trailing slash removed)
-2. Empty string if running in browser environment
-3. `DEFAULT_PATH` ('/') as fallback for server-side rendering
-
-```javascript
-// Examples of basePath values:
-// - '/images' (from env var)
-// - 'https://cdn.example.com' (from env var)
-// - '' (browser context)
-// - '/' (SSR fallback)
-```
-
-#### `url(path: string)`
-Constructs complete image URLs by combining the base path with the provided path.
-
-**Parameters:**
-- `path` - The image path (relative or absolute URL)
-
-**Returns:** Complete URL string
-
-**Behavior:**
-- Returns the path unchanged if it's already a complete URL (starts with `http://` or `https://`)
-- Removes leading slash from path if present
-- Formats base path to ensure proper URL structure
-- Combines base path and image path with appropriate separators
-
-```javascript
-// Usage examples:
-imageConfig.url('logo.png')           // '/logo.png' or 'https://cdn.example.com/logo.png'
-imageConfig.url('/assets/hero.jpg')   // '/assets/hero.jpg' or 'https://cdn.example.com/assets/hero.jpg'
-imageConfig.url('https://external.com/image.png') // 'https://external.com/image.png'
-```
-
-#### `nextImageSrc` (getter)
-Provides Next.js Image component compatible source configuration.
-
-**Returns:** Object with `remote` and `local` properties
-- `remote`: Base path if it's a remote URL (starts with http/https), otherwise `undefined`
-- `local`: Base path without leading slash if it's local, otherwise `undefined`
-
-```javascript
-// Examples:
-// For basePath = 'https://cdn.example.com':
-// { remote: 'https://cdn.example.com', local: undefined }
-
-// For basePath = '/images':
-// { remote: undefined, local: 'images' }
-```
-
-## Usage Patterns
-
-### Basic Image URL Construction
-```javascript
-import { imageConfig } from './path/to/imageConfig';
-
-const logoUrl = imageConfig.url('logo.png');
-const heroImageUrl = imageConfig.url('assets/hero.jpg');
-```
-
-### Next.js Image Component Integration
-```javascript
-import Image from 'next/image';
-import { imageConfig } from './path/to/imageConfig';
-
-const { remote, local } = imageConfig.nextImageSrc;
-
-// For remote images
-if (remote) {
-  <Image src={imageConfig.url('image.jpg')} alt="Description" width={500} height={300} />
-}
-
-// For local images
-if (local) {
-  <Image src={imageConfig.url('image.jpg')} alt="Description" width={500} height={300} />
-}
-```
-
-## Environment Configuration
-
-Set the `NEXT_PUBLIC_IMAGE_PATH` environment variable to customize the base path:
-
-```bash
-# Local development
-NEXT_PUBLIC_IMAGE_PATH=/assets
-
-# Production with CDN
-NEXT_PUBLIC_IMAGE_PATH=https://cdn.example.com
-
-# Production with subdirectory
-NEXT_PUBLIC_IMAGE_PATH=/my-app/images
-```
-
 ## Full Source Code
 
 ```typescript
@@ -136,6 +38,91 @@ export const imageConfig = {
   },
 };
 ```
+
+## Usage Examples
+
+### Basic Image URL Construction
+```javascript
+import { imageConfig } from './path/to/imageConfig';
+
+const logoUrl = imageConfig.url('logo.png');
+const heroImageUrl = imageConfig.url('assets/hero.jpg');
+
+// Results based on environment:
+// - Local: '/logo.png', '/assets/hero.jpg'
+// - With CDN: 'https://cdn.example.com/logo.png', 'https://cdn.example.com/assets/hero.jpg'
+```
+
+### Next.js Image Component Integration
+```javascript
+import Image from 'next/image';
+import { imageConfig } from './path/to/imageConfig';
+
+// Basic usage
+<Image 
+  src={imageConfig.url('profile.jpg')} 
+  alt="Profile" 
+  width={200} 
+  height={200} 
+/>
+
+// With remote/local detection
+const { remote, local } = imageConfig.nextImageSrc;
+<Image 
+  src={imageConfig.url('banner.jpg')} 
+  alt="Banner" 
+  width={800} 
+  height={400}
+  priority={remote ? true : false}
+/>
+```
+
+### Environment Configuration
+```bash
+# Local development
+NEXT_PUBLIC_IMAGE_PATH=/assets
+
+# Production with CDN
+NEXT_PUBLIC_IMAGE_PATH=https://cdn.example.com
+
+# Production with subdirectory
+NEXT_PUBLIC_IMAGE_PATH=/my-app/images
+```
+
+### Dynamic Image Paths
+```javascript
+// Works with relative paths
+imageConfig.url('icons/star.svg')        // '/icons/star.svg' or 'https://cdn.example.com/icons/star.svg'
+
+// Works with absolute paths
+imageConfig.url('/images/hero.jpg')      // '/images/hero.jpg' or 'https://cdn.example.com/images/hero.jpg'
+
+// Passes through complete URLs
+imageConfig.url('https://external.com/image.png') // 'https://external.com/image.png'
+```
+
+## Configuration Details
+
+### Properties
+
+#### `basePath` (getter)
+Returns the base path for images, determined by priority:
+1. `NEXT_PUBLIC_IMAGE_PATH` environment variable (with trailing slash removed)
+2. Empty string if running in browser environment
+3. `DEFAULT_PATH` ('/') as fallback for server-side rendering
+
+#### `url(path: string)`
+Constructs complete image URLs by combining the base path with the provided path.
+
+**Parameters:**
+- `path` - The image path (relative or absolute URL)
+
+**Returns:** Complete URL string
+
+#### `nextImageSrc` (getter)
+Provides Next.js Image component compatible source configuration.
+
+**Returns:** Object with `remote` and `local` properties
 
 ## Key Features
 
