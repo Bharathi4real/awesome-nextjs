@@ -3,7 +3,6 @@
 ## 1. Install Dependencies and init biome
 ```bash
 pnpm i @biomejs/biome -D  
-
 biome init
 ```
 
@@ -11,7 +10,7 @@ biome init
 Save the provided `biome.json` configuration in the project root.
 ```json
 {
-  "$schema": "https://biomejs.dev/schemas/2.0.0/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.0.5/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
@@ -36,7 +35,7 @@ Save the provided `biome.json` configuration in the project root.
   "linter": {
     "enabled": false,
     "rules": {
-      "recommended": true
+      "recommended": false
     }
   },
   "javascript": {
@@ -76,7 +75,7 @@ Add the following scripts to your `package.json` file:
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start -p 3004",
+    "start": "next start -p 3009",
     "lint": "next lint",
     "format": "biome format --write . && biome check --write ."
   }
@@ -92,4 +91,4 @@ pnpm format
 ---
 
 ## Contribution
-Want to suggest usefull prettier config options? Open a pull request!
+Want to suggest useful prettier config options? Open a pull request!
