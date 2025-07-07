@@ -25,8 +25,8 @@ Save the provided `biome.json` configuration in the project root.
     "indentStyle": "space",
     "indentWidth": 2,
     "lineEnding": "lf",
-    "lineWidth": 80,
-    "attributePosition": "auto",
+    "lineWidth": 100,
+    "attributePosition": "multiline",
     "bracketSameLine": false,
     "bracketSpacing": true,
     "expand": "auto",
@@ -47,7 +47,7 @@ Save the provided `biome.json` configuration in the project root.
       "arrowParentheses": "always",
       "bracketSameLine": false,
       "quoteStyle": "single",
-      "attributePosition": "auto",
+      "attributePosition": "multiline",
       "bracketSpacing": true
     }
   },
@@ -65,6 +65,7 @@ Save the provided `biome.json` configuration in the project root.
     }
   }
 }
+
 ```
 (enable linter if you want)
 
