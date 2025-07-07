@@ -62,6 +62,7 @@ Font resources for web and app design
 ## List of Stock Image and Illustration Galleries
 Best Royalty Free Stock Images, Illustrations and 3D assets
 - [Lummi](https://www.lummi.ai/) - Free stock photos and royalty free images.
+- [Thiings Collection](https://www.thiings.co/things) - A collection of over 4000 free AI-generated 3D icons designed for designers and creative projects.
 
 ---
 
