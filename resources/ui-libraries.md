@@ -7,6 +7,7 @@ A collection of UI libraries, icon libraries, and font resources for React and N
 ## List of UI Libraries
 Popular UI component libraries with pre-built, customizable components
 - [21st.dev](https://21st.dev/components/) - Ship polished UIs faster with ready-to-use React Tailwind components inspired by shadcn/ui.
+- [8bitcn UI](https://www.8bitcn.com/) - A set of retro-designed, accessible components and a code distribution platform. Open Source. Open Code.
 - [Aceternity UI](https://ui.aceternity.com/) – Simple and elegant UI components.
 - [Animate UI](https://animate-ui.com/) - A fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion and Shadcn CLI. 
 - [Artifact UI](https://artifactui.in/) - A modern UI component library for beautiful and accessible web applications.  
