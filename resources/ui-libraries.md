@@ -6,11 +6,12 @@ A collection of UI libraries, icon libraries, and font resources for React and N
 
 ## List of UI Libraries
 Popular UI component libraries with pre-built, customizable components
+- [21st.dev](https://21st.dev/components/) - Ship polished UIs faster with ready-to-use React Tailwind components inspired by shadcn/ui.
 - [Aceternity UI](https://ui.aceternity.com/) – Simple and elegant UI components.
 - [Animate UI](https://animate-ui.com/) - A fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion and Shadcn CLI. 
 - [Artifact UI](https://artifactui.in/) - A modern UI component library for beautiful and accessible web applications.  
 - [Cult UI](https://www.cult-ui.com/) - Ready-to-use Shadcn compatible components for your react apps. Styled with tailwindcss, Open source & Typed.
-- [c15t](https://c15t.com) - c15t is an open source framework for managing cookies, consent, and privacy compliance. 
+- [c15t](https://c15t.com/) - c15t is an open source framework for managing cookies, consent, and privacy compliance. 
 - [CuiCui](https://cuicui.day/) – Experimental and creative UI elements.  
 - [Cursify](https://cursify.vercel.app/) - A Collection of Cursor Components built with React Tailwind CSS and Framer Motion.  
 - [DevUI](https://www.devui.in/) – Beautiful and accessible UI components.  
@@ -41,7 +42,7 @@ Icon sets with various styles and formats (SVG, font icons)
 - [Obra](https://icons.obra.studio/?ref=dailydev) - A simple, consistent set of icons, perfect for user interfaces.
 - [Phosphor](https://phosphoricons.com/) – Versatile icon set with multiple styles in SVG format.  
 - [Simple Icons](https://simpleicons.org/) – Brand icons with SVG format support.  
-- [UnDraw](https://undraw.co/illustrations) - Open-source illustrations for websites and apps.  
+- [UnDraw](https://undraw.co/illustrations/) - Open-source illustrations for websites and apps.  
 - [useAnimations](https://useanimations.com/) - Animated icons in Lottie Framework for immediate implementation to your apps or websites.
 
 ---
@@ -50,7 +51,7 @@ Icon sets with various styles and formats (SVG, font icons)
 Font resources for web and app design
 - [Adobe Fonts](https://fonts.adobe.com/) – Premium font collection (requires Adobe subscription).  
 - [Google Fonts](https://fonts.google.com/) – Free and widely-used web fonts.  
-- [nextjs-fonts](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) – Next.js-specific font optimization guide.  
+- [nextjs-fonts](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts/) – Next.js-specific font optimization guide.  
 - [Typography.com](https://typography.com/) – Professional-grade fonts with licensing options.
 - [Svgl.app](https://svgl.app/) - Free and widely-used SVG Logos.
 
