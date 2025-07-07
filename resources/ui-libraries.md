@@ -7,7 +7,7 @@ A collection of UI libraries, icon libraries, and font resources for React and N
 ## List of UI Libraries
 Popular UI component libraries with pre-built, customizable components
 - [21st.dev](https://21st.dev/components/) - Ship polished UIs faster with ready-to-use React Tailwind components inspired by shadcn/ui.
-- [8bitcn UI](https://www.8bitcn.com/) - A set of retro-designed, accessible components and a code distribution platform. Open Source. Open Code.
+- [8bitCN UI](https://www.8bitcn.com/) - A set of retro-designed, accessible components and a code distribution platform. Open Source. Open Code.
 - [Aceternity UI](https://ui.aceternity.com/) – Simple and elegant UI components.
 - [Animate UI](https://animate-ui.com/) - A fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion and Shadcn CLI. 
 - [Artifact UI](https://artifactui.in/) - A modern UI component library for beautiful and accessible web applications.  
@@ -24,7 +24,8 @@ Popular UI component libraries with pre-built, customizable components
 - [Pace UI](https://www.paceui.com/) - Animated components and design blocks crafted for smooth interaction and rich detail. Copy, customise, and create without the extra setup.
 - [React Bits](https://www.reactbits.dev/) – Collection of reusable React components.  
 - [ShadCN UI](https://ui.shadcn.com/) – Minimalist and customizable UI components.  
-- [Shadcn UI Blocks](https://www.shadcnui-blocks.com/) - A collection of ready to use Shadcn UI blocks and components.  
+- [Shadcn UI Blocks](https://www.shadcnui-blocks.com/) - A collection of ready to use Shadcn UI blocks and components.
+- [ShadCN Cookies](https://shadcn-cookies.vercel.app/) - Sleek and flexible cookie consent component, designed with shadcn/ui 
 - [Spectrum UI](https://spectrumui.arihantcodes.in/) - Collection of reusable ShadCN UI components.  
 - [Tail Ark](https://tailark.com/) - A collection of Marketing UI Blocks.  
 - [Tailus UI](https://ui.tailus.io/) – Tailwind-based component library.  
