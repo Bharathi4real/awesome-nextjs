@@ -24,8 +24,9 @@ Popular UI component libraries with pre-built, customizable components
 - [Pace UI](https://www.paceui.com/) - Animated components and design blocks crafted for smooth interaction and rich detail. Copy, customise, and create without the extra setup.
 - [React Bits](https://www.reactbits.dev/) – Collection of reusable React components.  
 - [ShadCN UI](https://ui.shadcn.com/) – Minimalist and customizable UI components.  
-- [Shadcn UI Blocks](https://www.shadcnui-blocks.com/) - A collection of ready to use Shadcn UI blocks and components.
-- [ShadCN Cookies](https://shadcn-cookies.vercel.app/) - Sleek and flexible cookie consent component, designed with shadcn/ui 
+- [ShadCN UI Blocks](https://www.shadcnui-blocks.com/) - A collection of ready to use Shadcn UI blocks and components.
+- [ShadCN Cookies](https://shadcn-cookies.vercel.app/) - Sleek and flexible cookie consent component, designed with shadcn/ui.
+- [ShadCN TipTap](https://tiptap.niazmorshed.dev/) - Collection of custom extensions and toolbars for Tiptap editor.
 - [Spectrum UI](https://spectrumui.arihantcodes.in/) - Collection of reusable ShadCN UI components.  
 - [Tail Ark](https://tailark.com/) - A collection of Marketing UI Blocks.  
 - [Tailus UI](https://ui.tailus.io/) – Tailwind-based component library.  
