@@ -44,6 +44,7 @@ A collection of essential development tools and utilities for React and Next.js 
 - [Axios](https://axios-http.com/) - A promise-based HTTP client for making API requests from both the browser and Node.js, commonly used with React for handling async requests.
 - [Got](https://github.com/sindresorhus/got) - A robust and flexible HTTP request library for Node.js, offering support for retries, streams, and more, with a simple API.
 - [Ky](https://github.com/sindresorhus/ky) - A tiny and elegant HTTP client for the browser and Node.js, offering a simpler API and built-in features like retries and timeouts.
+- [Safe Fetch](https://github.com/Bharathi4real/safe-fetch/) - A lightweight, fully typed fetch wrapper with built-in retries, timeouts, and Next.js support. 
 
 
 ### User Onboarding & Tours
