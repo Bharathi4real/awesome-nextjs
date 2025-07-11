@@ -11,14 +11,15 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
 
 ```json
 {
-  "$schema": "https://biomejs.dev/schemas/2.0.5/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
     "useIgnoreFile": true
   },
   "files": {
-    "ignoreUnknown": false
+    "ignoreUnknown": false,
+    "experimentalScannerIgnores": ["**/components/ui/**"] // shadcn/ui
   },
   "formatter": {
     "enabled": true,
@@ -37,15 +38,28 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
     "enabled": true,
     "rules": {
       "recommended": true,
-      "nursery": {
-        "useSortedClasses": {
-          "level": "error",
-          "options": {
-            "attributes": ["className", "class"],
-            "functions": ["clsx", "cva", "tw", "cn"]
-          }
-        }
+      "style": {
+        "noNonNullAssertion": "off"
+      },
+      "a11y": {
+        "noAutofocus": "off",
+        "useAriaPropsForRole": "off",
+        "noNoninteractiveElementToInteractiveRole": "off",
+        "noRedundantAlt": "off",
+        "noSvgWithoutTitle": "off",
+        "useAltText": "off",
+        "useButtonType": "off",
+        "useHeadingContent": "off",
+        "useHtmlLang": "off",
+        "useKeyWithClickEvents": "off",
+        "useKeyWithMouseEvents": "off",
+        "useMediaCaption": "off",
+        "useSemanticElements": "off",
+        "useValidAriaProps": "off"
       }
+    },
+    "domains": {
+      "next": "recommended"
     }
   },
   "javascript": {
@@ -73,13 +87,9 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
         "organizeImports": "on"
       }
     }
-  },
-  "domains": {
-    "next": {
-      "enabled": true
-    }
   }
 }
+
 ```
 
 ## 3. Disable ESLint Completely
@@ -123,13 +133,13 @@ Replace the scripts section in your `package.json` file with:
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "npm run lint && npm run typecheck && next build",
     "start": "next start -p 3009",
     "lint": "biome lint .",
     "lint:fix": "biome lint --write .",
-    "format": "biome format --write .",
-    "check": "biome check .",
-    "check:fix": "biome check --write ."
+    "typecheck": "tsc --noEmit",
+    "format": "biome format --write . && biome check --write .",
+    "clean": "node -e \"const {execSync} = require('child_process'); const isWin = process.platform === 'win32'; execSync(isWin ? 'rd /s /q .next && rd /s /q node_modules' : 'rm -rf .next node_modules');\""
   },
   "dependencies": {
     "next": "15.0.0",
@@ -173,10 +183,7 @@ pnpm dev
 pnpm build
 
 # Format and fix all issues
-pnpm format && pnpm check:fix
-
-# Check for issues without fixing
-pnpm check
+pnpm format
 
 # Lint only
 pnpm lint
