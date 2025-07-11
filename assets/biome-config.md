@@ -11,7 +11,7 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
 
 ```json
 {
-  "$schema": "https://biomejs.dev/schemas/2.0.6/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.1.1/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
@@ -19,7 +19,7 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
   },
   "files": {
     "ignoreUnknown": false,
-    "experimentalScannerIgnores": ["**/components/ui/**"] // shadcn/ui
+    "experimentalScannerIgnores": ["**/components/ui/**"]
   },
   "formatter": {
     "enabled": true,
@@ -90,6 +90,7 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
   }
 }
 
+
 ```
 
 ## 3. Disable ESLint Completely
@@ -134,7 +135,7 @@ Replace the scripts section in your `package.json` file with:
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "npm run lint && npm run typecheck && next build",
-    "start": "next start -p 3009",
+    "start": "next start",
     "lint": "biome lint .",
     "lint:fix": "biome lint --write .",
     "typecheck": "tsc --noEmit",
@@ -147,7 +148,7 @@ Replace the scripts section in your `package.json` file with:
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.1.1",
     "@types/node": "^20.0.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
