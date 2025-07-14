@@ -19,7 +19,15 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
   },
   "files": {
     "ignoreUnknown": false,
-    "experimentalScannerIgnores": ["**/components/ui/**"]
+    "experimentalScannerIgnores": [
+      "**/node_modules/**",
+      "**/.next/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/coverage/**",
+      "**/public/**",
+      "**/components/ui/**"
+    ]
   },
   "formatter": {
     "enabled": true,
@@ -38,41 +46,23 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
     "enabled": true,
     "rules": {
       "recommended": true,
+      "a11y": "off",
       "style": {
         "noNonNullAssertion": "off"
-      },
-      "a11y": {
-        "noAutofocus": "off",
-        "useAriaPropsForRole": "off",
-        "noNoninteractiveElementToInteractiveRole": "off",
-        "noRedundantAlt": "off",
-        "noSvgWithoutTitle": "off",
-        "useAltText": "off",
-        "useButtonType": "off",
-        "useHeadingContent": "off",
-        "useHtmlLang": "off",
-        "useKeyWithClickEvents": "off",
-        "useKeyWithMouseEvents": "off",
-        "useMediaCaption": "off",
-        "useSemanticElements": "off",
-        "useValidAriaProps": "off"
       }
     },
     "domains": {
-      "next": "recommended"
+      "next": "all"
     }
   },
   "javascript": {
     "formatter": {
+      "quoteStyle": "single",
       "jsxQuoteStyle": "double",
+      "arrowParentheses": "always",
       "quoteProperties": "asNeeded",
       "trailingCommas": "all",
-      "semicolons": "always",
-      "arrowParentheses": "always",
-      "bracketSameLine": false,
-      "quoteStyle": "single",
-      "attributePosition": "multiline",
-      "bracketSpacing": true
+      "semicolons": "always"
     }
   },
   "html": {
@@ -89,8 +79,6 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
     }
   }
 }
-
-
 ```
 
 ## 3. Disable ESLint Completely
