@@ -152,6 +152,9 @@ Install the Biome VS Code extension and add to your `.vscode/settings.json`:
 
 ```json
 {
+  "biome.enabled": true,
+  "biome.lsp.bin": "application/node_modules/.bin/biome",
+  "biome.lsp.trace.server": "off",
   "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
