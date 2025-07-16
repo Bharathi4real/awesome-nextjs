@@ -9,25 +9,28 @@ Popular UI component libraries with pre-built, customizable components
 - [21st.dev](https://21st.dev/components/) - Ship polished UIs faster with ready-to-use React Tailwind components inspired by shadcn/ui.
 - [8bitCN UI](https://www.8bitcn.com/) - A set of retro-designed, accessible components and a code distribution platform. Open Source. Open Code.
 - [Aceternity UI](https://ui.aceternity.com/) – Simple and elegant UI components.
-- [Animate UI](https://animate-ui.com/) - A fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion and Shadcn CLI. 
+- [Animate UI](https://animate-ui.com/) - A fully animated, open-source component distribution with Shadcn CLI, Tailwind, TS & Motion. 
 - [Artifact UI](https://artifactui.in/) - A modern UI component library for beautiful and accessible web applications.  
 - [Cult UI](https://www.cult-ui.com/) - Ready-to-use Shadcn compatible components for your react apps. Styled with tailwindcss, Open source & Typed.
 - [c15t](https://c15t.com/) - c15t is an open source framework for managing cookies, consent, and privacy compliance. 
 - [CuiCui](https://cuicui.day/) – Experimental and creative UI elements.  
 - [Cursify](https://cursify.vercel.app/) - A Collection of Cursor Components built with React Tailwind CSS and Framer Motion.  
 - [DevUI](https://www.devui.in/) – Beautiful and accessible UI components.  
-- [Ground](https://ground.bossadizenith.me/docs/components) - Handcrafted animated modern components build for performance and ready to use in your app.  
+- [Ground](https://ground.bossadizenith.me/docs/components) - Handcrafted animated modern components build for performance and ready to use.
 - [Hero UI](https://www.heroui.com/) – Elegant and feature-rich UI components.  
 - [HyperUI](https://www.hyperui.dev/) – Tailwind CSS-based UI components.  
-- [Magic UI](https://magicui.design/) – Interactive and animated components.  
+- [Magic UI](https://magicui.design/) – Interactive and animated components.
+- [MvpBlocks](https://blocks.mvp-subha.me/) - Copy-paste beautiful, responsive components without worrying about styling or animations.
+- [Kibo UI](https://www.kibo-ui.com/) - Designed to be fully composable so you can build, customize and extend them to your own needs.
 - [Origin UI](https://originui.com/) – Modern and customizable React components.
-- [Pace UI](https://www.paceui.com/) - Animated components and design blocks crafted for smooth interaction and rich detail. Copy, customise, and create without the extra setup.
+- [Pace UI](https://www.paceui.com/) - Animated components and design blocks crafted for smooth interaction and rich detail. 
 - [React Bits](https://www.reactbits.dev/) – Collection of reusable React components.  
 - [ShadCN UI](https://ui.shadcn.com/) – Minimalist and customizable UI components.  
 - [ShadCN UI Blocks](https://www.shadcnui-blocks.com/) - A collection of ready to use Shadcn UI blocks and components.
 - [ShadCN Cookies](https://shadcn-cookies.vercel.app/) - Sleek and flexible cookie consent component, designed with shadcn/ui.
 - [ShadCN TipTap](https://tiptap.niazmorshed.dev/) - Collection of custom extensions and toolbars for Tiptap editor.
-- [Spectrum UI](https://spectrumui.arihantcodes.in/) - Collection of reusable ShadCN UI components.  
+- [Spectrum UI](https://spectrumui.arihantcodes.in/) - Collection of reusable ShadCN UI components.
+- [SHSF UI](https://www.shsfui.com/) - Precision-crafted components for developers who value every interaction.
 - [Tail Ark](https://tailark.com/) - A collection of Marketing UI Blocks.  
 - [Tailus UI](https://ui.tailus.io/) – Tailwind-based component library.  
 - [UI Layouts](https://www.ui-layouts.com/) - Free beautifull interactive react/nextjs component based on tailwindcss, motion, gsap, threejs.
