@@ -9,16 +9,16 @@ biome init
 ## 2. Update biome.json
 Save the provided `biome.json` configuration in the project root with Next.js specific rules:
 
-```json
+```jsonc
 {
-  "$schema": "https://biomejs.dev/schemas/2.1.1/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
     "useIgnoreFile": true
   },
   "files": {
-    "ignoreUnknown": false,
+    "ignoreUnknown": true,
     "experimentalScannerIgnores": [
       "**/node_modules/**",
       "**/.next/**",
@@ -46,7 +46,6 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
     "enabled": true,
     "rules": {
       "recommended": true,
-      "a11y": "off",
       "style": {
         "noNonNullAssertion": "off"
       }
@@ -61,8 +60,13 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
       "jsxQuoteStyle": "double",
       "arrowParentheses": "always",
       "quoteProperties": "asNeeded",
-      "trailingCommas": "all",
+      "trailingCommas": "es5",
       "semicolons": "always"
+    }
+  },
+  "json": {
+    "formatter": {
+      "trailingCommas": "none"
     }
   },
   "html": {
@@ -79,6 +83,7 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
     }
   }
 }
+
 ```
 
 ## 3. Disable ESLint Completely
