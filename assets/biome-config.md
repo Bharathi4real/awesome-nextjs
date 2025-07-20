@@ -19,7 +19,7 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
 	},
 	"files": {
 		"ignoreUnknown": true,
-		// "experimentalScannerIgnores": ["**/components/ui/**"]  // added here because some of shadcn/ui may break
+		"experimentalScannerIgnores": ["**/components/ui/**"] // added here because some of shadcn/ui may break
 	},
 	"formatter": {
 		"enabled": true,
@@ -72,6 +72,7 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
 		}
 	}
 }
+
 ```
 
 ## 3. Disable ESLint Completely
