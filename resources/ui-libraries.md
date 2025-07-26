@@ -11,6 +11,7 @@ Popular UI component libraries with pre-built, customizable components
 - [Aceternity UI](https://ui.aceternity.com/) – Simple and elegant UI components.
 - [Animate UI](https://animate-ui.com/) - A fully animated, open-source component distribution with Shadcn CLI, Tailwind, TS & Motion.
 - [Artifact UI](https://artifactui.in/) - A modern UI component library for beautiful and accessible web applications.
+- [Cosmic UI](https://www.cosmic-ui.com/docs) - Cosmic UI is a set of beautifully-designed sci-fi components with customizable SVG shapes.
 - [Cult UI](https://www.cult-ui.com/) - Ready-to-use Shadcn compatible components for your react apps. Styled with tailwindcss, Open source & Typed.
 - [c15t](https://c15t.com/) - c15t is an open source framework for managing cookies, consent, and privacy compliance.
 - [CuiCui](https://cuicui.day/) – Experimental and creative UI elements.
