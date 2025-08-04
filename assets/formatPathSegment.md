@@ -122,4 +122,4 @@ Use this utility for:
 Supports optional segments and will safely return `""` if the index is invalid or segment is missing.
 
 ## Contribution
-Want to suggest axios config options? Open a pull request!
+Want to suggest anything about formatPathSegment? Open a pull request!
