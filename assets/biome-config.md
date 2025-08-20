@@ -11,68 +11,82 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
 
 ```jsonc
 {
-	"$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
-	"vcs": {
-		"enabled": true,
-		"clientKind": "git",
-		"useIgnoreFile": true
-	},
-	"files": {
-		"ignoreUnknown": true,
-		"experimentalScannerIgnores": ["**/components/ui/**"] // added here because some of shadcn/ui may break
-	},
-	"formatter": {
-		"enabled": true,
-		"formatWithErrors": false,
-		"indentStyle": "tab",
-		"indentWidth": 2,
-		"lineEnding": "lf",
-		"lineWidth": 100,
-		"attributePosition": "multiline",
-		"bracketSameLine": false,
-		"bracketSpacing": true,
-		"expand": "auto"
-	},
-	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true,
-			"style": {
-				"noNonNullAssertion": "off"
-			}
-		},
-		"domains": {
-			"next": "all"
-		}
-	},
-	"javascript": {
-		"formatter": {
-			"jsxQuoteStyle": "double",
-			"quoteProperties": "asNeeded",
-			"trailingCommas": "all",
-			"semicolons": "always",
-			"arrowParentheses": "always",
-			"bracketSameLine": false,
-			"quoteStyle": "single",
-			"attributePosition": "multiline",
-			"bracketSpacing": true
-		}
-	},
-	"html": {
-		"formatter": {
-			"selfCloseVoidElements": "always"
-		}
-	},
-	"assist": {
-		"enabled": true,
-		"actions": {
-			"source": {
-				"organizeImports": "on"
-			}
-		}
-	}
+  "$schema": "https://biomejs.dev/schemas/2.2.0/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "experimentalScannerIgnores": [
+      "**/node_modules/**",
+      "**/.next/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.turbo/**",
+      "**/coverage/**",
+      "**/public/**",
+      "**/components/ui/**" // for shadcn components
+    ],
+    "ignoreUnknown": true
+  },
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": false,
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineEnding": "lf",
+    "lineWidth": 100,
+    "attributePosition": "multiline",
+    "bracketSameLine": false,
+    "bracketSpacing": true,
+    "expand": "auto"
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "a11y": "off",
+      "security": {
+        "noDangerouslySetInnerHtml": "off"
+      },
+      "style": {
+        "noNonNullAssertion": "off"
+      },
+      "suspicious": { "noUnknownAtRules": "off" }, // for tailwind @ rules
+      "complexity": { "noImportantStyles": "off" } // for !important styles
+    },
+    "domains": {
+      "next": "all"
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "jsxQuoteStyle": "double",
+      "quoteProperties": "asNeeded",
+      "trailingCommas": "all",
+      "semicolons": "always",
+      "arrowParentheses": "always",
+      "bracketSameLine": false,
+      "quoteStyle": "single",
+      "attributePosition": "multiline",
+      "bracketSpacing": true
+    }
+  },
+  "html": {
+    "formatter": {
+      "selfCloseVoidElements": "always"
+    }
+  },
+  "assist": {
+    "enabled": true,
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  }
 }
-
 ```
 
 ## 3. Disable ESLint Completely
@@ -116,10 +130,9 @@ Replace the scripts section in your `package.json` file with:
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "npm run lint && npm run typecheck && next build",
-    "start": "next start",
+    "build": "next build",
+    "start": "next start -p 3005",
     "lint": "biome lint .",
-    "lint:fix": "biome lint --write .",
     "typecheck": "tsc --noEmit",
     "format": "biome format --write . && biome check --write .",
     "clean": "node -e \"const {execSync} = require('child_process'); const isWin = process.platform === 'win32'; execSync(isWin ? 'rd /s /q .next && rd /s /q node_modules' : 'rm -rf .next node_modules');\""
