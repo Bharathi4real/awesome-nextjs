@@ -17,18 +17,9 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
     "clientKind": "git",
     "useIgnoreFile": true
   },
-  "files": {
-    "experimentalScannerIgnores": [
-      "**/node_modules/**",
-      "**/.next/**",
-      "**/dist/**",
-      "**/build/**",
-      "**/.turbo/**",
-      "**/coverage/**",
-      "**/public/**",
-      "**/components/ui/**" // for shadcn components
-    ],
-    "ignoreUnknown": true
+ "files": {
+    "ignoreUnknown": true,
+    "includes": ["**", "!node_modules", "!.next", "!dist", "!build"]
   },
   "formatter": {
     "enabled": true,
@@ -44,20 +35,12 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
   },
   "linter": {
     "enabled": true,
-    "rules": {
-      "recommended": true,
-      "a11y": "off",
-      "security": {
-        "noDangerouslySetInnerHtml": "off"
-      },
-      "style": {
-        "noNonNullAssertion": "off"
-      },
-      "suspicious": { "noUnknownAtRules": "off" }, // for tailwind @ rules
-      "complexity": { "noImportantStyles": "off" } // for !important styles
+     "rules": {
+      "recommended": true
     },
     "domains": {
-      "next": "all"
+      "next": "recommended",
+      "react": "recommended"
     }
   },
   "javascript": {
@@ -79,7 +62,6 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
     }
   },
   "assist": {
-    "enabled": true,
     "actions": {
       "source": {
         "organizeImports": "on"
