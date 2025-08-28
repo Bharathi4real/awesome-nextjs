@@ -32,6 +32,7 @@ Popular UI component libraries with pre-built, customizable components
 - [ShadCN UI Blocks](https://www.shadcnui-blocks.com/) - A collection of ready to use Shadcn UI blocks and components.
 - [ShadCN Cookies](https://shadcn-cookies.vercel.app/) - Sleek and flexible cookie consent component, designed with shadcn/ui.
 - [ShadCN TipTap](https://tiptap.niazmorshed.dev/) - Collection of custom extensions and toolbars for Tiptap editor.
+- [Skiper UI](https://skiper-ui.com/) - Components crafted for Modern Websites.
 - [Spectrum UI](https://spectrumui.arihantcodes.in/) - Collection of reusable ShadCN UI components.
 - [SHSF UI](https://www.shsfui.com/) - Precision-crafted components for developers who value every interaction.
 - [Tail Ark](https://tailark.com/) - A collection of Marketing UI Blocks.
