@@ -27,7 +27,9 @@ Popular UI component libraries with pre-built, customizable components
 - [Origin UI](https://originui.com/) – Modern and customizable React components.
 - [Pace UI](https://www.paceui.com/) - Animated components and design blocks crafted for smooth interaction and rich detail.
 - [React Bits](https://www.reactbits.dev/) – Collection of reusable React components.
+- [ReUi](https://reui.io) - UI components and animated effects built with React, Typescript, Tailwind, and Motion. Pairs beautifully with shadcn/ui.
 - [Sera UI](https://seraui.seraprogrammer.com/) - Beautifully designed components you can copy and paste into your apps.
+- [Smooth UI](https://smoothui.dev/) - Production-ready UI blocks for building beautiful websites and apps that look and feel the way you mean it.
 - [ShadCN UI](https://ui.shadcn.com/) – Minimalist and customizable UI components.
 - [ShadCN UI Blocks](https://www.shadcnui-blocks.com/) - A collection of ready to use Shadcn UI blocks and components.
 - [ShadCN Cookies](https://shadcn-cookies.vercel.app/) - Sleek and flexible cookie consent component, designed with shadcn/ui.
