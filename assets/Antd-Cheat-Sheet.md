@@ -1,6 +1,6 @@
 # Ant Design Sub-component Cheat Sheet (Next.js App Router)
 
-| Component   | Sub-components (❌ needs `"use client";`) | ✅ Server-safe Alternative |
+| Component   | Sub-components (needs `"use client";`) |  Server-safe Alternative |
 |-------------|-------------------------------------------|-----------------------------|
 | **Select**  | `Select.Option`, `Select.OptGroup`       | Use `options={[...]}` prop |
 | **DatePicker** | `DatePicker.RangePicker`, `MonthPicker`, `WeekPicker`, `QuarterPicker` | Use `picker="date" | month | week | quarter"` |
@@ -26,3 +26,7 @@
 ## 🎯 Rule of Thumb
 - If you write `<Component.SubComponent> ... </Component.SubComponent>` → **must use `"use client";`**.  
 - If you use `items`, `options`, or `columns` props → **safe as Server Component**.
+---
+
+## Contribution
+Want to suggest anything? Open a pull request!
