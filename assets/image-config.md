@@ -9,32 +9,44 @@ The `imageConfig` object provides a centralized configuration system for handlin
 ```typescript
 const DEFAULT_PATH = '/';
 
+// Precompute basePath for server & client (avoids getter recalculation)
+const rawBasePath = process.env.NEXT_PUBLIC_IMAGE_PATH?.replace(/\/$/, '');
+const isBrowser = typeof window !== 'undefined';
+const computedBasePath = rawBasePath || (isBrowser ? '' : DEFAULT_PATH);
+
+// Determine if basePath is remote
+const isRemoteBase =
+  computedBasePath.startsWith('http://') || computedBasePath.startsWith('https://');
+
+// Ensure basePath always starts with "/" if local
+const normalizedBasePath = isRemoteBase
+  ? computedBasePath
+  : computedBasePath
+    ? computedBasePath.startsWith('/')
+      ? computedBasePath
+      : `/${computedBasePath}`
+    : DEFAULT_PATH;
+
 export const imageConfig = {
-  get basePath() {
-    return (
-      process.env.NEXT_PUBLIC_IMAGE_PATH?.replace(/\/$/, '') ||
-      (typeof window !== 'undefined' ? '' : DEFAULT_PATH)
-    );
-  },
-  url(path: string) {
+  basePath: normalizedBasePath,
+
+  url(path?: string | null): string {
+    if (!path || typeof path !== 'string' || !path.trim()) return DEFAULT_PATH;
+
+    // External URLs pass-through
     if (path.startsWith('http://') || path.startsWith('https://')) return path;
-    const cleanPath = path.startsWith('/') ? path.slice(1) : path;
-    const base = this.basePath || '';
-    const formattedBase = base.startsWith('http')
-      ? base
-      : base.startsWith('/')
-        ? base
-        : `/${base}`;
-    return `${formattedBase}${formattedBase.endsWith('/') ? '' : '/'}${cleanPath}`;
+
+    // Clean leading slash
+    const cleanPath = path[0] === '/' ? path.slice(1) : path;
+
+    // Avoid double slashes
+    return `${normalizedBasePath}${normalizedBasePath.endsWith('/') ? '' : '/'}${cleanPath}`;
   },
-  get nextImageSrc() {
-    const isRemote =
-      this.basePath.startsWith('http://') ||
-      this.basePath.startsWith('https://');
-    return {
-      remote: isRemote ? this.basePath : undefined,
-      local: !isRemote ? this.basePath.replace(/^\//, '') : undefined,
-    };
+
+  nextImageSrc: {
+    remote: isRemoteBase ? normalizedBasePath : DEFAULT_PATH,
+    local:
+      !isRemoteBase && normalizedBasePath ? normalizedBasePath.replace(/^\//, '') : DEFAULT_PATH,
   },
 };
 ```
