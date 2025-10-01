@@ -25,6 +25,7 @@ Popular UI component libraries with pre-built, customizable components
 - [MvpBlocks](https://blocks.mvp-subha.me/) - Copy-paste beautiful, responsive components without worrying about styling or animations.
 - [Neobrutalism UI](https://www.neobrutalism.dev/) - A collection of neobrutalism-styled components based on shadcn/ui.
 - [Kibo UI](https://www.kibo-ui.com/) - Designed to be fully composable so you can build, customize and extend them to your own needs.
+- [Lightswind UI](https://lightswind.com/) - Create stunning web applications effortlessly by using our 100+ professional and animated react components.
 - [Origin UI](https://originui.com/) – Modern and customizable React components.
 - [Pace UI](https://www.paceui.com/) - Animated components and design blocks crafted for smooth interaction and rich detail.
 - [React Bits](https://www.reactbits.dev/) – Collection of reusable React components.
