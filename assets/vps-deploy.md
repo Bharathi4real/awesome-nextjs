@@ -107,7 +107,7 @@ server {
 sudo ln -s /etc/nginx/sites-available/app1.com /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl restart nginx
-sudo service restart nginx
+sudo service nginx restart
 ```
 
 ## 4. Add SSL (HTTPS)
