@@ -76,9 +76,10 @@ A collection of essential development tools and utilities for React and Next.js 
 - [Clerk](https://clerk.com/) - A comprehensive authentication and user management solution for React and Next.js.
 - [NextAuth.js](https://next-auth.js.org/) - A flexible authentication solution for Next.js, with built-in support for OAuth.
 
+### File Converters
+- [Vert](https://vert.sh/) - All image, audio, and document processing is done on your device. Videos are converted on our lightning-fast servers. No file size limit, no ads, and completely open source.
 
 ### Others
-
 - [Serva](https://getserva.com/) - The quickest way to showcase Instagram feed on your website
   
 ---
