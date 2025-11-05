@@ -2,7 +2,7 @@
 
 ## 1. Install Dependencies and Initialize Biome
 ```bash
-pnpm i @biomejs/biome -D  
+bun i @biomejs/biome -D  
 biome init
 ```
 
@@ -11,54 +11,37 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
 
 ```jsonc
 {
-  "$schema": "https://biomejs.dev/schemas/2.2.0/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.3.3/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
     "useIgnoreFile": true
   },
- "files": {
+  "files": {
     "ignoreUnknown": true,
     "includes": ["**", "!node_modules", "!.next", "!dist", "!build"]
   },
   "formatter": {
     "enabled": true,
-    "formatWithErrors": false,
     "indentStyle": "space",
-    "indentWidth": 2,
-    "lineEnding": "lf",
-    "lineWidth": 100,
-    "attributePosition": "multiline",
-    "bracketSameLine": false,
-    "bracketSpacing": true,
-    "expand": "auto"
+    "indentWidth": 2
   },
   "linter": {
     "enabled": true,
-     "rules": {
-      "recommended": true
+    "rules": {
+      "recommended": true,
+      "suspicious": {
+        "noUnknownAtRules": "off"
+      }
     },
     "domains": {
       "next": "recommended",
       "react": "recommended"
     }
   },
-  "javascript": {
-    "formatter": {
-      "jsxQuoteStyle": "double",
-      "quoteProperties": "asNeeded",
-      "trailingCommas": "all",
-      "semicolons": "always",
-      "arrowParentheses": "always",
-      "bracketSameLine": false,
-      "quoteStyle": "single",
-      "attributePosition": "multiline",
-      "bracketSpacing": true
-    }
-  },
-  "html": {
-    "formatter": {
-      "selfCloseVoidElements": "always"
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
     }
   },
   "assist": {
@@ -75,7 +58,7 @@ Save the provided `biome.json` configuration in the project root with Next.js sp
 
 ### Uninstall ESLint Dependencies
 ```bash
-pnpm remove eslint eslint-config-next @typescript-eslint/eslint-plugin @typescript-eslint/parser
+bun remove eslint eslint-config-next @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
 ### Remove ESLint Configuration Files
@@ -86,21 +69,6 @@ Delete the following files if they exist:
 - `.eslintrc.yaml`
 - `eslint.config.js`
 - `eslint.config.mjs`
-
-### Disable ESLint in next.config.js
-Create or update your `next.config.js` file to prevent ESLint from running during builds (including Vercel):
-
-```javascript
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  eslint: {
-    // This will completely disable ESLint during builds on Vercel and locally
-    ignoreDuringBuilds: true,
-  },
-}
-
-module.exports = nextConfig
-```
 
 ## 4. Update package.json Scripts
 Replace the scripts section in your `package.json` file with:
@@ -158,16 +126,19 @@ Install the Biome VS Code extension and add to your `.vscode/settings.json`:
 
 ```bash
 # Development with hot reload
-pnpm dev
+bun dev
 
 # Build for production (ESLint disabled)
-pnpm build
+bun run build
 
 # Format and fix all issues
-pnpm format
+bun format
 
 # Lint only
-pnpm lint
+bun lint
+
+# Clean node modules and .next folders
+bun clean
 ```
 
 ---
