@@ -43,6 +43,7 @@ Popular UI component libraries with pre-built, customizable components
 - [Tailus UI](https://ui.tailus.io/) – Tailwind-based component library.
 - [UI Layouts](https://www.ui-layouts.com/) - Free beautifull interactive react/nextjs component based on tailwindcss, motion, gsap, threejs.
 - [UIVERSE](https://uiverse.io/) - Community-built library of UI elements. Copy as HTML/CSS, Tailwind, React and Figma.
+- [WIGGLE UI](https://wigggle-ui.vercel.app/) - An open-source curated collection of copy-paste widgets for your next project.
 
 ## List of Icon Libraries
 Icon sets with various styles and formats (SVG, font icons)
@@ -56,6 +57,7 @@ Icon sets with various styles and formats (SVG, font icons)
 - [Obra](https://icons.obra.studio/?ref=dailydev) - A simple, consistent set of icons, perfect for user interfaces.
 - [Phosphor](https://phosphoricons.com/) – Versatile icon set with multiple styles in SVG format.
 - [Simple Icons](https://simpleicons.org/) – Brand icons with SVG format support.
+- [Svgl.app](https://svgl.app/) - Free and widely-used SVG Logos.
 - [UnDraw](https://undraw.co/illustrations/) - Open-source illustrations for websites and apps.
 - [useAnimations](https://useanimations.com/) - Animated icons in Lottie Framework for immediate implementation to your apps or websites.
 
@@ -67,7 +69,6 @@ Font resources for web and app design
 - [Google Fonts](https://fonts.google.com/) – Free and widely-used web fonts.
 - [nextjs-fonts](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts/) – Next.js-specific font optimization guide.
 - [Typography.com](https://typography.com/) – Professional-grade fonts with licensing options.
-- [Svgl.app](https://svgl.app/) - Free and widely-used SVG Logos.
 
 ---
 
