@@ -85,7 +85,7 @@ Replace the scripts section in your `package.json` file with:
     "lint": "biome lint .",
     "typecheck": "tsc --noEmit",
     "format": "biome format --write . && biome check --write .",
-    "clean": "node -e \"const {execSync} = require('child_process'); const isWin = process.platform === 'win32'; execSync(isWin ? 'rd /s /q .next && rd /s /q node_modules' : 'rm -rf .next node_modules');\""
+    "clean": "node -e \"const { execSync } = require('child_process'); const isWin = process.platform === 'win32'; const rm = p => execSync(isWin ? `rd /s /q ${p} 2>nul` : `rm -rf ${p}`); ['node_modules', 'dist', '.tanstack', '.vite', '.next', '.turbo', '.output'].forEach(rm);\""
   },
   "dependencies": {
     "next": "15.0.0",
