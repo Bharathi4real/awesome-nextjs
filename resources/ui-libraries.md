@@ -26,6 +26,7 @@ Popular UI component libraries with pre-built, customizable components
 - [Neobrutalism UI](https://www.neobrutalism.dev/) - A collection of neobrutalism-styled components based on shadcn/ui.
 - [Kibo UI](https://www.kibo-ui.com/) - Designed to be fully composable so you can build, customize and extend them to your own needs.
 - [Lightswind UI](https://lightswind.com/) - Create stunning web applications effortlessly by using our 100+ professional and animated react components.
+- [MapCN](https://mapcn.vercel.app/) - Ready-to-use, customizable map components for React. Built on MapLibre, styled with Tailwind. Zero config.
 - [Origin UI](https://originui.com/) – Modern and customizable React components.
 - [Pace UI](https://www.paceui.com/) - Animated components and design blocks crafted for smooth interaction and rich detail.
 - [React Bits](https://www.reactbits.dev/) – Collection of reusable React components.
