@@ -22,6 +22,7 @@ Popular UI component libraries with pre-built, customizable components
 - [Hero UI](https://www.heroui.com/) – Elegant and feature-rich UI components.
 - [HyperUI](https://www.hyperui.dev/) – Tailwind CSS-based UI components.
 - [Magic UI](https://magicui.design/) – Interactive and animated components.
+- [MapCN](https://mapcn.vercel.app/?ref=dailydev) - Ready to use, customizable map components for React. Built on MapLibre. Styled with Tailwind.
 - [MvpBlocks](https://blocks.mvp-subha.me/) - Copy-paste beautiful, responsive components without worrying about styling or animations.
 - [Neobrutalism UI](https://www.neobrutalism.dev/) - A collection of neobrutalism-styled components based on shadcn/ui.
 - [Kibo UI](https://www.kibo-ui.com/) - Designed to be fully composable so you can build, customize and extend them to your own needs.
