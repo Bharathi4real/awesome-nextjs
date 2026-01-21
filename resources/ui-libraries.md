@@ -50,6 +50,7 @@ Popular UI component libraries with pre-built, customizable components
 ## List of Icon Libraries
 Icon sets with various styles and formats (SVG, font icons)
 - [3D Icons](https://3dicons.co/) - More than 1500+ hand made Open Source & Premium 3d icons renders for ready to use
+- [All SVG Icons](https://allsvgicons.com/?ref=dailydev) - Browse and download 250,000+ free SVG icons from 220 carefully curated icon libraries.
 - [Animated Icons](https://icons.pqoqubbw.dev/) - Beautifully crafted animated icons built with motion and lucide and shadcn.
 - [Cool Shapes](https://coolshap.es/) - 100+ Abstract shapes with cool grainy gradient. Ready to use with any design project.
 - [Google Icons](https://fonts.google.com/icons) – Extensive collection of free icons by Google.
