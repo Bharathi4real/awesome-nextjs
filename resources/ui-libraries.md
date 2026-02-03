@@ -18,6 +18,8 @@ Popular UI component libraries with pre-built, customizable components
 - [CuiCui](https://cuicui.day/) – Experimental and creative UI elements.
 - [Cursify](https://cursify.vercel.app/) - A Collection of Cursor Components built with React Tailwind CSS and Framer Motion.
 - [DevUI](https://www.devui.in/) – Beautiful and accessible UI components.
+- [ElevenLabs UI](https://ui.elevenlabs.io/) - A collection of Open Source agent and audio components that you can customize and extend.
+- [GridCN](https://thegridcn.com/) - Tron: Ares inspired theme featuring Greek god color schemes, movie UI components, and immersive 3D effects.
 - [Ground](https://ground.bossadizenith.me/docs/components) - Handcrafted animated modern components build for performance and ready to use.
 - [Hero UI](https://www.heroui.com/) – Elegant and feature-rich UI components.
 - [HyperUI](https://www.hyperui.dev/) – Tailwind CSS-based UI components.
@@ -44,6 +46,7 @@ Popular UI component libraries with pre-built, customizable components
 - [Tail Ark](https://tailark.com/) - A collection of Marketing UI Blocks.
 - [Tailus UI](https://ui.tailus.io/) – Tailwind-based component library.
 - [UI Layouts](https://www.ui-layouts.com/) - Free beautifull interactive react/nextjs component based on tailwindcss, motion, gsap, threejs.
+- [UI-TripleD](https://ui.tripled.work/) - Production-ready UI components and templates built with modern web technologies.
 - [UIVERSE](https://uiverse.io/) - Community-built library of UI elements. Copy as HTML/CSS, Tailwind, React and Figma.
 - [WIGGLE UI](https://wigggle-ui.vercel.app/) - An open-source curated collection of copy-paste widgets for your next project.
 
