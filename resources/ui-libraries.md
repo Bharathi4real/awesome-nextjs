@@ -10,9 +10,7 @@ Popular UI component libraries with pre-built, customizable components
 - [8bitCN UI](https://www.8bitcn.com/) - A set of retro-designed, accessible components and a code distribution platform. Open Source. Open Code.
 - [Aceternity UI](https://ui.aceternity.com/) – Simple and elegant UI components.
 - [Animate UI](https://animate-ui.com/) - A fully animated, open-source component distribution with Shadcn CLI, Tailwind, TS & Motion.
-- [Artifact UI](https://artifactui.in/) - A modern UI component library for beautiful and accessible web applications.
 - [Basecoat UI](https://basecoatui.com/components/avatar/) - Basecoat brings the magic of shadcn/ui to any traditional web stack: no React required.
-- [Cosmic UI](https://www.cosmic-ui.com/docs) - Cosmic UI is a set of beautifully-designed sci-fi components with customizable SVG shapes.
 - [Cult UI](https://www.cult-ui.com/) - Ready-to-use Shadcn compatible components for your react apps. Styled with tailwindcss, Open source & Typed.
 - [c15t](https://c15t.com/) - c15t is an open source framework for managing cookies, consent, and privacy compliance.
 - [CuiCui](https://cuicui.day/) – Experimental and creative UI elements.
@@ -29,7 +27,6 @@ Popular UI component libraries with pre-built, customizable components
 - [Neobrutalism UI](https://www.neobrutalism.dev/) - A collection of neobrutalism-styled components based on shadcn/ui.
 - [Kibo UI](https://www.kibo-ui.com/) - Designed to be fully composable so you can build, customize and extend them to your own needs.
 - [Lightswind UI](https://lightswind.com/) - Create stunning web applications effortlessly by using our 100+ professional and animated react components.
-- [MapCN](https://mapcn.vercel.app/) - Ready-to-use, customizable map components for React. Built on MapLibre, styled with Tailwind. Zero config.
 - [Origin UI](https://originui.com/) – Modern and customizable React components.
 - [Pace UI](https://www.paceui.com/) - Animated components and design blocks crafted for smooth interaction and rich detail.
 - [React Bits](https://www.reactbits.dev/) – Collection of reusable React components.
@@ -41,8 +38,6 @@ Popular UI component libraries with pre-built, customizable components
 - [ShadCN Cookies](https://shadcn-cookies.vercel.app/) - Sleek and flexible cookie consent component, designed with shadcn/ui.
 - [ShadCN TipTap](https://tiptap.niazmorshed.dev/) - Collection of custom extensions and toolbars for Tiptap editor.
 - [Skiper UI](https://skiper-ui.com/) - Components crafted for Modern Websites.
-- [Spectrum UI](https://spectrumui.arihantcodes.in/) - Collection of reusable ShadCN UI components.
-- [SHSF UI](https://www.shsfui.com/) - Precision-crafted components for developers who value every interaction.
 - [Tail Ark](https://tailark.com/) - A collection of Marketing UI Blocks.
 - [Tailus UI](https://ui.tailus.io/) – Tailwind-based component library.
 - [UI Layouts](https://www.ui-layouts.com/) - Free beautifull interactive react/nextjs component based on tailwindcss, motion, gsap, threejs.
