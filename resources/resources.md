@@ -33,6 +33,7 @@ Popular UI component libraries with pre-built, customizable components.
 - [Pace UI](https://www.paceui.com/) - Animated UI blocks.
 - [React Bits](https://www.reactbits.dev/) – Reusable React components.
 - [ReUI](https://reui.io) - Tailwind + Motion animated components.
+- [SatisUi](https://satisui.xyz/) - Awwwards-inspired animations and built on a best-in-class modern stack
 - [Sera UI](https://seraui.seraprogrammer.com/) - Copy-paste React components.
 - [Smooth UI](https://smoothui.dev/) - Production-ready UI blocks.
 - [ShadCN UI](https://ui.shadcn.com/) – Minimal and customizable UI components.
