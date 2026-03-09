@@ -21,6 +21,9 @@ A collection of essential development tools and utilities for React and Next.js 
 - [ThemeCN](https://themecn.dev/) - themecn streamlines your design workflow with powerful, intuitive theme creation for shadcn/ui. 
 - [Tools.UI-Layout](https://tools.ui-layouts.com/) - A creative toolbox featuring shadow, SVG, gradient, and background pattern generators, color. Open-source, fast, and made for builders.
 
+### UI Packages
+- [Skeleton Generator](https://shimmer-from-structure-docs.vercel.app/) - A structure-aware skeleton loader that mirrors your rendered UI at runtime. Zero layout duplication. Built for modern frameworks.
+
 ### Build Tools
 - [Parcel](https://parceljs.org/) - A zero-config build tool known for its blazing fast performance.  
 - [Turbopack](https://turbo.build/pack) - A high-performance bundler, built using Rust, designed for Next.js, as a successor to Webpack.  
