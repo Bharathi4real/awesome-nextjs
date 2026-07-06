@@ -47,6 +47,7 @@ Popular UI component libraries with pre-built, customizable components.
 - [UI Layouts](https://www.ui-layouts.com/) - React/Next.js components with Motion, GSAP, Three.js.
 - [UI-TripleD](https://ui.tripled.work/) - Modern production-ready UI components.
 - [UIVERSE](https://uiverse.io/) - Community UI elements.
+- [Vengence Ui](https://www.vengenceui.com/?ref=dailydev) - Hover effects, animated tooltips, and scroll-driven layouts designed for modern marketing websites.
 - [WIGGLE UI](https://wigggle-ui.vercel.app/) - Copy-paste widgets for projects.
 
 ---
