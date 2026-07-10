@@ -63,6 +63,7 @@ Popular UI component libraries with pre-built, customizable components.
 - [Lucide](https://lucide.dev/) – Clean open-source icons.
 - [Obra Icons](https://icons.obra.studio/) - Minimal UI icons.
 - [Phosphor Icons](https://phosphoricons.com/) – Multi-style icon set.
+- [ReIcon](https://reicon.dev/) - Precision-crafted, open-source SVG icons for React, Vue, Svelte, Figma, and the web. Pixel-perfect.
 - [Simple Icons](https://simpleicons.org/) – Brand icons.
 - [SVGL](https://svgl.app/) - SVG logos.
 - [useAnimations](https://useanimations.com/) - Lottie animated icons.
