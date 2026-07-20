@@ -13,6 +13,7 @@ Popular UI component libraries with pre-built, customizable components.
 - [Aceternity UI](https://ui.aceternity.com/) – Elegant UI components.
 - [Animate UI](https://animate-ui.com/) - Fully animated open-source component distribution with Tailwind, TS, Motion, and shadcn CLI.
 - [Basecoat UI](https://basecoatui.com/components/avatar/) - shadcn-style components for traditional web stacks (no React required).
+- [BeUI](https://beui.dev/) - Copy-paste animated components built on Framer Motion and Tailwind. Free and open source.
 - [Cult UI](https://www.cult-ui.com/) - Typed, Tailwind-styled shadcn-compatible components.
 - [c15t](https://c15t.com/) - Cookie consent and privacy compliance framework.
 - [CuiCui](https://cuicui.day/) – Experimental creative UI elements.
