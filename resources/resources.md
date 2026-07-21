@@ -29,6 +29,7 @@ Popular UI component libraries with pre-built, customizable components.
 - [Lightswind UI](https://lightswind.com/) - Professional animated React components.
 - [Magic UI](https://magicui.design/) – Interactive UI components.
 - [MapCN](https://mapcn.vercel.app/) - Tailwind-styled MapLibre map components.
+- [Markstream React](https://github.com/Simon-He95/markstream-vue) - Streaming Markdown renderer for React and Next.js AI chat interfaces, with Mermaid, KaTeX, syntax highlighting, SSR, and long-response support.
 - [MvpBlocks](https://blocks.mvp-subha.me/) - Copy-paste responsive components.
 - [Neobrutalism UI](https://www.neobrutalism.dev/) - Neo-brutalist styled shadcn components.
 - [Origin UI](https://originui.com/) – Customizable React components.
