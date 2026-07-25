@@ -128,6 +128,12 @@ Popular UI component libraries with pre-built, customizable components.
 
 ---
 
+# Security Tools
+
+- [Poszo Next.js Security Headers Starter](https://github.com/poszothebuilder/poszo-nextjs-security-headers) - Dependency-free security headers for Next.js with a production verifier.
+
+---
+
 # Testing Frameworks
 
 - [Cypress](https://www.cypress.io/)
