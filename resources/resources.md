@@ -53,6 +53,8 @@ Popular UI component libraries with pre-built, customizable components.
 - [Vengence Ui](https://www.vengenceui.com/?ref=dailydev) - Hover effects, animated tooltips, and scroll-driven layouts designed for modern marketing websites.
 - [WIGGLE UI](https://wigggle-ui.vercel.app/) - Copy-paste widgets for projects.
 
+- [Payload Components](https://www.payload-components.xyz) - MIT registry of 67 typed Payload CMS blocks for Payload v3 and Next.js 15/16; installs owned source and automates Pages, renderer, types, and admin import-map wiring.
+
 ---
 
 # Icon Libraries
