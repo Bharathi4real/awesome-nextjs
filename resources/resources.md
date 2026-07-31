@@ -12,6 +12,7 @@ Popular UI component libraries with pre-built, customizable components.
 - [8bitCN UI](https://www.8bitcn.com/) - Retro-designed, accessible components and code distribution platform.
 - [Aceternity UI](https://ui.aceternity.com/) – Elegant UI components.
 - [Animate UI](https://animate-ui.com/) - Fully animated open-source component distribution with Tailwind, TS, Motion, and shadcn CLI.
+- [Arise UI](https://ariseui.vercel.app/) - A curated collection of distinctive, animated UI components built for modern interfaces.
 - [Basecoat UI](https://basecoatui.com/components/avatar/) - shadcn-style components for traditional web stacks (no React required).
 - [BeUI](https://beui.dev/) - Copy-paste animated components built on Framer Motion and Tailwind. Free and open source.
 - [Canvas UI](https://canvasui.dev/) - An open source library of tasteful html-in-canvas & WebGL components.
