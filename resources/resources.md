@@ -139,6 +139,7 @@ Popular UI component libraries with pre-built, customizable components.
 
 # Testing Frameworks
 
+- [Agent QA](https://github.com/vostride/agent-qa) - Source-available AI QA agent for natural-language web and mobile regression tests, persistent test memory, and MCP/CLI workflows.
 - [Cypress](https://www.cypress.io/)
 - [Jest](https://jestjs.io/)
 
