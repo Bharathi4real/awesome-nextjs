@@ -22,6 +22,7 @@ Popular UI component libraries with pre-built, customizable components.
 - [Cursify](https://cursify.vercel.app/) - Cursor components built with React, Tailwind, and Framer Motion.
 - [DevUI](https://www.devui.in/) – Accessible UI components.
 - [ElevenLabs UI](https://ui.elevenlabs.io/) - Agent and audio components.
+- [Feral UI](https://feralui.dev/) - Components that move like real things.
 - [Fonttrio](https://www.fonttrio.xyz/pairs) - Fonts paired for you install with one command.
 - [GridCN](https://thegridcn.com/) - Tron-inspired UI components and theme.
 - [Ground](https://ground.bossadizenith.me/docs/components) - Animated performance-focused components.
