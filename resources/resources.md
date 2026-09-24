@@ -37,6 +37,7 @@ Popular UI component libraries with pre-built, customizable components.
 - [MvpBlocks](https://blocks.mvp-subha.me/) - Copy-paste responsive components.
 - [Neobrutalism UI](https://www.neobrutalism.dev/) - Neo-brutalist styled shadcn components.
 - [Origin UI](https://originui.com/) – Customizable React components.
+- [Opensource UI](https://opensourceui.in/) - React and Next.js components for phone mockups, forms, widgets, and more, with live previews
 - [Pace UI](https://www.paceui.com/) - Animated UI blocks.
 - [Payload Components](https://www.payload-components.xyz) - MIT registry of 67 typed Payload CMS blocks for Payload v3 and Next.js 15/16; installs owned source and automates Pages, renderer, types, and admin import-map wiring.
 - [React Bits](https://www.reactbits.dev/) – Reusable React components.
