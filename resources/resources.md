@@ -40,6 +40,7 @@ Popular UI component libraries with pre-built, customizable components.
 - [Opensource UI](https://opensourceui.in/) - React and Next.js components for phone mockups, forms, widgets, and more, with live previews
 - [Pace UI](https://www.paceui.com/) - Animated UI blocks.
 - [Payload Components](https://www.payload-components.xyz) - MIT registry of 67 typed Payload CMS blocks for Payload v3 and Next.js 15/16; installs owned source and automates Pages, renderer, types, and admin import-map wiring.
+- [Plasma UI](https://cruxgarden.github.io/plasma-ui/?via=dailydev#top) - Liquid panels for React, rendered in WebGL on canvas.
 - [React Bits](https://www.reactbits.dev/) – Reusable React components.
 - [ReUI](https://reui.io) - Tailwind + Motion animated components.
 - [SatisUi](https://satisui.xyz/) - Awwwards-inspired animations and built on a best-in-class modern stack
