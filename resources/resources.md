@@ -211,6 +211,7 @@ Popular UI component libraries with pre-built, customizable components.
 
 ## File Converters
 
+- [CurlShot](https://curlshot.com/) - Screenshot API: turn a URL, HTML or Markdown into a PNG, JPEG, WebP or PDF with one request, e.g. Open Graph images for Next.js metadata.
 - [Vert](https://vert.sh/) - Convert images, audio, and documents.
 
 ---
