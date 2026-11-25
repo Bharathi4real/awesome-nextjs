@@ -21,6 +21,7 @@ Popular UI component libraries with pre-built, customizable components.
 - [CuiCui](https://cuicui.day/) – Experimental creative UI elements.
 - [Cursify](https://cursify.vercel.app/) - Cursor components built with React, Tailwind, and Framer Motion.
 - [DevUI](https://www.devui.in/) – Accessible UI components.
+- [Ding Toasts](https://ding.yusufcengiz.dev/) - Toasts with real spring physics.
 - [ElevenLabs UI](https://ui.elevenlabs.io/) - Agent and audio components.
 - [Feral UI](https://feralui.dev/) - Components that move like real things.
 - [Fonttrio](https://www.fonttrio.xyz/pairs) - Fonts paired for you install with one command.
